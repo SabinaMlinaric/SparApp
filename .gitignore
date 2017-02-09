@@ -241,5 +241,5 @@ ModelManifest.xml
 # FAKE - F# Make
 .fake/
 
-# Class
-Utility.cs
+# ignore a single file
+Utility.class
