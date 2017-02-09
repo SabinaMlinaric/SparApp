@@ -59,7 +59,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="Boarding\Boarding.cs" />
+    <Compile Include="Boarding\NoSPARCard.cs" />
+    <Compile Include="Registration\Register_Success.cs" />
     <Compile Include="Utility.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -67,7 +68,6 @@
     <Folder Include="Landing\" />
     <Folder Include="Login\" />
     <Folder Include="MySpar\" />
-    <Folder Include="Registration\" />
     <Folder Include="ShoppingList\" />
   </ItemGroup>
   <Choose>
