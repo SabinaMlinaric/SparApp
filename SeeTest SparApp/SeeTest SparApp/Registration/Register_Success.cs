@@ -27,7 +27,7 @@ namespace SeeTest_SparApp.Registration
         }
 
         [TestMethod]
-        public void TestNoSPARCard_SkipAll()
+        public void RegisterSuccess()
         {
             String Username = null;
             String Surname = null;
@@ -43,7 +43,7 @@ namespace SeeTest_SparApp.Registration
             StreamReader inputStream;
             try
             {
-                inputStream = new StreamReader(File.OpenRead("C:\\Users\\sabinam\\workspace\\project2\\scenarios\\DDD\\Registration.csv"));
+                inputStream = new StreamReader(File.OpenRead(Utility.Utility.ddd));
                 inputStream.ReadLine();
 
                 while (!inputStream.EndOfStream)
