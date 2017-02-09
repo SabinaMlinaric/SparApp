@@ -59,8 +59,16 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="Test.cs" />
+    <Compile Include="Boarding\Boarding.cs" />
+    <Compile Include="Utility.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Landing\" />
+    <Folder Include="Login\" />
+    <Folder Include="MySpar\" />
+    <Folder Include="Registration\" />
+    <Folder Include="ShoppingList\" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
