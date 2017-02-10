@@ -60,6 +60,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Boarding\NoSPARCard.cs" />
+    <Compile Include="Boarding\SerialNumber.cs" />
     <Compile Include="Registration\Register_Success.cs" />
     <Compile Include="Utility.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
