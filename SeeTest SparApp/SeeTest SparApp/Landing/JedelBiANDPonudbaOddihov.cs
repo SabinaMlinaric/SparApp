@@ -5,7 +5,7 @@ using SeeTest_SparApp.Utility;
 namespace SeeTest_SparApp.Landing
 {
     [TestClass]
-    public class JedelBi
+    public class Shops
     {
         private string host = "localhost";
         private int port = 8889;
@@ -33,11 +33,17 @@ namespace SeeTest_SparApp.Landing
             {
                 // If statement
             }
-            if (client.SwipeWhileNotFound("Down", 500, 2000, "Landing", "JedelBi_Img", 0, 1000, 5, true))
+            if (client.SwipeWhileNotFound("Down", 500, 2000, "Landing", "JedelBi_Img", 0, 5000, 5, true))
             {
                 // If statement
             }
             client.VerifyElementFound("Landing", "JedelBi_Title", 0);
+            client.Click("Landing", "JedelBi_Back", 0, 1);
+            if (client.SwipeWhileNotFound("Down", 500, 2000, "Landing", "Ponudbe oddihov", 0, 2, true))
+            {
+                // If statement
+            }
+            client.VerifyElementFound("Landing", "Spar plus KLUB", 0);
         } 
 
     [TestCleanup()]
