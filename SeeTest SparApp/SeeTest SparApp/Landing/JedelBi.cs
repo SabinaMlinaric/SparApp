@@ -5,7 +5,7 @@ using SeeTest_SparApp.Utility;
 namespace SeeTest_SparApp.Landing
 {
     [TestClass]
-    class JedelBi
+    public class JedelBi
     {
         private string host = "localhost";
         private int port = 8889;
