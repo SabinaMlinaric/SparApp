@@ -25,8 +25,7 @@ namespace SeeTest_SparApp.Landing
         [TestMethod]
         public void TestShopList()
         {
-           // try
-           // {
+           
 
                 client.SetDevice(Utility.Utility.DeviceName);
                 client.Launch(Utility.Utility.Activity, true, true);
@@ -43,12 +42,8 @@ namespace SeeTest_SparApp.Landing
                 //client.WaitForElement("Landing", "Show Only Opened", 0, 6000);
                 client.VerifyElementFound("TEXT", "Lokacije", 0);
                 client.Click("Landing", "Show Only Opened", 0, 1);
-                client.VerifyElementNotFound("Landing", "Zaprto", 0);
-           // }
-            //catch(Exception)
-            //{
-
-            //}
+                client.VerifyElementFound("Landing", "Zaprto", 0);
+           
 
         }
         [TestCleanup()]
