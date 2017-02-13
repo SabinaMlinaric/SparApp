@@ -22,8 +22,10 @@ namespace SeeTest_SparApp.Landing
         }
 
         [TestMethod]
+
         public void TestJedelBi()
         {
+            
             client.SetDevice(Utility.Utility.DeviceName);
             client.Launch(Utility.Utility.Activity, true, true);
             client.Click("default", "NoCard", 0, 1);
