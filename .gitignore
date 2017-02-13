@@ -242,4 +242,5 @@ ModelManifest.xml
 .fake/
 
 # ignore a single file
-SeeTest_SparApp.Utility.Utility.class
+/SeeTest SparApp/SeeTest SparApp/Utility/Utility.cs
+/SeeTest SparApp/SeeTest SparApp/Utility.cs

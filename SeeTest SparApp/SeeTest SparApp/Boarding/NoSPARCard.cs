@@ -93,5 +93,6 @@ namespace SeeTest_SparApp.Boarding
             // Releases the client so that other clients can approach the agent in the near future. 
             client.ReleaseClient();
         }
-    }
+    }
+
 }
